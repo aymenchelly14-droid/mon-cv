@@ -1,4 +1,3 @@
-
 export const personalInfo = {
   name: "Aymen Achour Chelly",
   title: "Étudiant en Informatique & Développeur Web",
@@ -12,10 +11,7 @@ export const personalInfo = {
 export const skills = [
   { category: "Programming Languages", level: 80, items: ["Python", "C++", "Java", "JavaScript", "HTML5", "CSS3", "PHP"] },
   { category: "Frameworks & Libraries", level: 75, items: ["React.js", "Next.js", "Tailwind CSS", "Node.js"] },
-  
-  // 👇 C'EST ICI QUE J'AI AJOUTÉ "Oracle"
   { category: "Databases", level: 70, items: ["SQL", "MySQL", "MongoDB", "Oracle"] },
-  
   { category: "Tools & Design", level: 85, items: ["VS Code", "IntelliJ", "Eclipse", "draw.io", "Git"] }
 ];
 
@@ -55,6 +51,12 @@ export const experience = [
 ];
 
 export const education = [
+  {
+    period: "2026 – 2027",
+    type: "University",
+    school: "ITBS",
+    degree: "1er cycle d'ingénieur",
+  },
   {
     period: "2023 – 2026",
     type: "University",
